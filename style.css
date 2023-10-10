@@ -1,0 +1,167 @@
+body {
+  background-color: #262626;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #800000;
+  padding: 0px;
+  margin-bottom: 0px;
+  border-style: ridge;
+  border-color: #ffffcc;
+}
+
+#navbar-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-family: serif;
+}
+
+#navbar-links li {
+  color: #ffffcc;
+}
+
+.header-container {
+background: url("https://res.cloudinary.com/programandoconmei/image/upload/v1695692864/OJT2/grill_x7dpw8.jpg");
+  background-repeat: no-repeat;
+  background-position: top-left;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  max-width: 200px;
+  max-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-itms: center;
+  
+
+}
+
+h1 {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 20px;
+  line-height: 60px;
+  background-color: #800000;
+  color: #ffffcc;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid none;
+  border-color: #ffffcc;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 25px;
+  background-color: #800000;
+  color: #ffffcc;
+  display: flex;
+  justify-content: left;
+  padding-left: 10px;
+}
+
+.bio-container {
+  display: flex;
+  align-items: stretch;  
+  padding-bottom: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.bio-image {
+  flex: 1;
+  margin-right: 10px;
+}
+  
+.bio {
+  flex: 1;
+  padding-right: 20px;
+  font-family: serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #f2f2f2
+  }
+h3 {
+  font-family: arial;
+  font-size: 22px;
+  text-align: center;
+  width: 800px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid none;
+  border-color: #ffffcc;
+  padding: 4px;
+  background-color: #800000;
+  line-height: 40px;
+  color: #ffffcc;
+}
+h4 {
+  font-family: mechanic;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  width: 800px;
+  border-style: solid;
+  line-height: 30px;
+  color: #f2f2f2
+}
+.description {
+  font-family: serif;
+  font-size: 16px;
+  text-align: center;
+  width: 800px;
+  line-height: 20px;
+  padding: 10px;
+  color: #f2f2f2
+}
+#selection {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  color: #f2f2f2;
+}
+#favoritesGallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+.socialLinks {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.hours-and-location {
+  display: none;
+}
+
+.hours-container {
+  color: #f2f2f2;
+  margin: auto;
+  padding-bottom: 18px;
+}
+
+.text-color {
+  color: #f2f2f2;
+}
+
+.animation {
+  display: none;
+}
